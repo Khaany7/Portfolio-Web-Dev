@@ -73,6 +73,9 @@ import vuetifyjs from '../app/assets/svg/skills/vuetifyjs.svg';
 import webix from '../app/assets/svg/skills/webix.svg';
 import wolframalpha from '../app/assets/svg/skills/wolframalpha.svg';
 import wordpress from '../app/assets/svg/skills/wordpress.svg';
+import elementor from '../app/assets/svg/skills/elementor.svg';
+import DBeaver from '../app/assets/svg/skills/dbeaver.svg';
+import Woocommerce from '../app/assets/svg/skills/woocommerce.svg';
 
 import pandas from '../app/assets/svg/skills/pandas.svg';
 import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
@@ -90,6 +93,12 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
+    case 'elementor':
+      return elementor;
+    case 'dbeaver':
+      return DBeaver;
+    case 'woocommerce':
+      return Woocommerce;
     case 'html':
       return html;
     case 'photoshop':

@@ -1,10 +1,10 @@
 <p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+    <img height="100" src="https://github.com/Khaany7/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
 </p>
 
 ---
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/Khaany7/github-portfolio)
 
 ---
 
@@ -18,7 +18,7 @@
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://khaany7.netlify.app/).
 
 ---
 
@@ -139,32 +139,31 @@ Eg:
 ```env
 NEXT_PUBLIC_GTM =
 NEXT_PUBLIC_APP_URL =
-TELEGRAM_BOT_TOKEN =
 TELEGRAM_CHAT_ID =
 GMAIL_PASSKEY =
 EMAIL_ADDRESS =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/Khaany7/developer-portfolio/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "Abdur Rehman",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
+  description: "My name is Abdur Rehman....",
+  email: "abdurrehmankhan4946@gmail.com",
+  phone: "+92 322 5832829",
   address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
+  github: "https://github.com/Khaany7",
   facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  linkedIn: "https://www.linkedin.com/in/abdur-rehman-yousafzai-09602a1a3/",
+  // twitter: "https://twitter.com/Khaany7",
+  // stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
+  leetcode: "https://leetcode.com/u/khaany7/",
+  devUsername: "Khaany7",
   resume: "...",
 };
 ```
@@ -213,18 +212,6 @@ Whenever you push changes to your GitHub repo, Vercel will automatically redeplo
 6. In the **Select app** dropdown, choose "Mail", and for **Select device**, choose "Other (Custom name)" and name it appropriately (e.g., "Portfolio").
 7. Click **Generate**. A 16-character app password will be displayed. Save this password for later use in your environment variables (e.g., `GMAIL_PASSKEY`).
 
-## Create a Telegram Bot
-
-1. **Open Telegram** and search for the user **@BotFather**.
-2. Start a chat with BotFather and use the `/newbot` command to create a new bot.
-3. Choose a name for your bot.
-4. Set a unique username for your bot (must end with `bot`, e.g., `PortfolioAssistantBot`).
-5. Once your bot is created, BotFather will send you a **Token**. Save this token, as you will need it for your environment variables (e.g., `TELEGRAM_BOT_TOKEN`).
-6. To get your chat ID:
-   - Open your bot in Telegram and send it a message.
-   - Visit the following URL in your browser, replacing `BOT_TOKEN` with your actual bot token:  
-     `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
-   - Look for the `chat` object in the response, which contains your **chat ID** (you can use this value for `TELEGRAM_CHAT_ID`).
 
 ## Fetching Blog from dev.to
 

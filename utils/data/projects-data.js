@@ -1,22 +1,22 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Shine Foundation Website',
+        description: "I developed the frontend for Shine.org.pk — a modern, responsive website for a nonprofit organization. Built using React.js and Tailwind CSS, the site features smooth navigation, clean UI components, and optimized performance across devices. The goal was to build a platform that communicates the foundation’s mission clearly while being accessible, fast, and mobile-friendly. It includes dynamic sections for news, events, donation integration, and volunteer sign-ups.",
+        tools: ['React','Axios','React Router','Payfast Payment Integration','Typescript', 'Tailwind CSS', 'DBeaver', 'Python', 'AWS SES', 'AWS S3', 'SMTP', 'EC2', 'AWS Route 53', 'AWS Amplify'],
+        role: 'Full Stack Developer (React.js)',
         code: '',
         demo: '',
     },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
+   {
+    id: 2,
+    name: 'Banana & Kale – Nutrition & Wellness Site',
+    description: "I developed and customized Banana & Kale’s official website using WordPress. The site promotes healthy living, meal plans, and wellness products. I customized the theme to align with the brand's identity, implemented responsive layouts, and optimized the site for speed and SEO. The project also included content structuring, plugin configuration, and integrating contact forms and social media. My goal was to ensure a clean, modern, and user-friendly experience across all devices.",
+    tools: ['WordPress', 'PHP', 'Elementor', 'Custom CSS', 'Yoast SEO', 'WP Forms', 'Google Analytics'],
+    role: 'WordPress Developer',
+    code: '', // Not applicable for WordPress
+    demo: '',
+}   ,
     {
         id: 3,
         name: 'AI Powered Real Estate',
